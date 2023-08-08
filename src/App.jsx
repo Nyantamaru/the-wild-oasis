@@ -36,4 +36,4 @@ const App = () => {
 
 export default App;
 
-// goto: 10 building the sidebar and main navigation
+// goto: 27. React Query Managing Remote State
