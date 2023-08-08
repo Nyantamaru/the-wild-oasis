@@ -16,7 +16,8 @@ import AppLayout from './ui/AppLayout';
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
-      staleTime: 60 * 1000,
+      //staleTime: 60 * 1000,
+      staleTime: 0,
     },
   },
 });
@@ -47,4 +48,4 @@ const App = () => {
 
 export default App;
 
-// goto: 27. React Query Managing Remote State
+// goto: 4 fetching cabin data
