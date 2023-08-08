@@ -48,4 +48,4 @@ const App = () => {
 
 export default App;
 
-// goto: 4 fetching cabin data
+// goto: 6 displaying Toasts
