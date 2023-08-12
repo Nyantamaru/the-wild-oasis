@@ -69,4 +69,4 @@ const App = () => {
 
 export default App;
 
-// goto: 11
+// goto: 12 Abstracting React Query into Custom Hooks.
