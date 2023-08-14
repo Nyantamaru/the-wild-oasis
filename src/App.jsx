@@ -69,4 +69,4 @@ const App = () => {
 
 export default App;
 
-// goto: 15
+// goto: Advance React patterns

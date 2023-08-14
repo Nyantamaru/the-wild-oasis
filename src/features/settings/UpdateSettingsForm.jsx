@@ -4,11 +4,12 @@ import FormRow from './../../ui/FormRow';
 import Input from './../../ui/Input';
 
 import { useSettings } from './useSettings';
+import { useUpdateSetting } from './useUpdateSetting';
 function UpdateSettingsForm() {
   // This time we are using UNCONTROLLED fields, so we will NOT store state
 
   const {
-    isLoading: isUpdating,
+    isLoading,
     settings: {
       minBookingLength,
       maxBookingLength,
@@ -17,13 +18,15 @@ function UpdateSettingsForm() {
     } = {},
   } = useSettings();
 
-  if (isUpdating) return <Spinner />;
+  const { isUpdating, updateSetting } = useUpdateSetting();
+
+  if (isLoading) return <Spinner />;
 
   function handleBlur(e, field) {
     const { value } = e.target;
 
     if (!value) return;
-    //updateSetting({ [field]: value });
+    updateSetting({ [field]: value });
   }
 
   return (
