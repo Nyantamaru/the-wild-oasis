@@ -69,4 +69,4 @@ const App = () => {
 
 export default App;
 
-// goto: Advance React patterns
+// goto: 8 Converting the modal to a compound component
