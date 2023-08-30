@@ -26,7 +26,7 @@ const queryClient = new QueryClient({
 const App = () => {
   return (
     <QueryClientProvider client={queryClient}>
-      <ReactQueryDevtools initialIsOpen={false} position="bottom-right" />
+      <ReactQueryDevtools initialIsOpen={false} position="bottom-left" />
       <GlobalStyles />
       <BrowserRouter>
         <Routes>
@@ -69,4 +69,4 @@ const App = () => {
 
 export default App;
 
-// goto: 10 confirming cabin deletions
+// goto: 11 building a reusable table
