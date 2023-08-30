@@ -69,4 +69,4 @@ const App = () => {
 
 export default App;
 
-// goto: 8 Converting the modal to a compound component
+// goto: 9 detecting click outside of the modal
