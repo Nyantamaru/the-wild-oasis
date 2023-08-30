@@ -36,9 +36,12 @@ const CabinTable = () => {
         <div></div>
       </Table.Header>
 
-      {cabins.map((cabin) => (
-        <CabinRow cabin={cabin} key={cabin.id} />
-      ))}
+      <Table.Body
+        data={cabins}
+        render={cabins.map((cabin) => (
+          <CabinRow cabin={cabin} key={cabin.id} />
+        ))}
+      />
     </Table>
   );
 };

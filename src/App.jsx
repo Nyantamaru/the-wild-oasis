@@ -69,4 +69,4 @@ const App = () => {
 
 export default App;
 
-// goto: 12 Applying the Render Props Pattern
+// goto: 13 Building a reusable context menu
