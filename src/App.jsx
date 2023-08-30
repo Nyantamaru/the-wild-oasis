@@ -69,4 +69,4 @@ const App = () => {
 
 export default App;
 
-// goto: 11 building a reusable table
+// goto: 12 Applying the Render Props Pattern
