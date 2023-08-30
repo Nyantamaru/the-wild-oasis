@@ -69,4 +69,4 @@ const App = () => {
 
 export default App;
 
-// goto: 9 detecting click outside of the modal
+// goto: 10 confirming cabin deletions
