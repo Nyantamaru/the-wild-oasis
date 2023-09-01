@@ -69,4 +69,4 @@ const App = () => {
 
 export default App;
 
-// goto: client-side sorting cabins
+// goto: 4 Building the Bookings table
