@@ -69,4 +69,4 @@ const App = () => {
 
 export default App;
 
-// goto: 29 [dark mode, dashboard, authentication]
+// goto: client-side sorting cabins
