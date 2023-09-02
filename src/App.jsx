@@ -69,4 +69,4 @@ const App = () => {
 
 export default App;
 
-// goto: 4 Building the Bookings table
+// goto: 5 Uploading sample data
