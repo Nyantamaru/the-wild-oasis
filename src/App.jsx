@@ -69,4 +69,4 @@ const App = () => {
 
 export default App;
 
-// goto: 6 Api filtering Bookings
+// goto: 6 Api Sorting Bookings
