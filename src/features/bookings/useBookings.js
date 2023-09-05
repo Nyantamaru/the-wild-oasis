@@ -1,7 +1,6 @@
 import { useQuery } from '@tanstack/react-query';
 import { getBookings } from '../../services/apiBookings';
 import { useSearchParams } from 'react-router-dom';
-import SortBy from '../../ui/SortBy';
 
 export const useBookings = () => {
   const [searchParams] = useSearchParams();

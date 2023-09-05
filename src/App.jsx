@@ -69,4 +69,4 @@ const App = () => {
 
 export default App;
 
-// goto: 8 Building a Reusable Pagination Component
+// goto: 9 Api-side Pagination Paginating Bookings
