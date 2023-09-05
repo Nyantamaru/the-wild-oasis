@@ -1,6 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 import { getBookings } from '../../services/apiBookings';
 import { useSearchParams } from 'react-router-dom';
+import SortBy from '../../ui/SortBy';
 
 export const useBookings = () => {
   const [searchParams] = useSearchParams();
@@ -13,13 +14,18 @@ export const useBookings = () => {
       : { field: 'status', value: filterValue };
   // { field: 'totalPrice', value: 5000, method: 'gte' };
 
+  // SORT
+  const sortByRaw = searchParams.get('sortBy') || 'startDate-desc';
+  const [field, direction] = sortByRaw.split('-');
+  const sortBy = { field, direction };
+
   const {
     isLoading,
     data: bookings,
     error,
   } = useQuery({
-    queryKey: ['bookings', filter],
-    queryFn: () => getBookings({ filter }),
+    queryKey: ['bookings', filter, sortBy],
+    queryFn: () => getBookings({ filter, sortBy }),
   });
   return { isLoading, error, bookings };
 };
