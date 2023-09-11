@@ -69,4 +69,4 @@ const App = () => {
 
 export default App;
 
-// goto: 10 Prefetching with React Query
+// goto: 11 Building the Single Booking Page
