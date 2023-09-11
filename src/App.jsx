@@ -69,4 +69,4 @@ const App = () => {
 
 export default App;
 
-// goto: 9 Api-side Pagination Paginating Bookings
+// goto: 10 Prefetching with React Query
