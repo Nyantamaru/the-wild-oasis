@@ -2,6 +2,8 @@ import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
+import { Toaster } from 'react-hot-toast';
+
 import GlobalStyles from './styles/GlobalStyles';
 import Dashboard from './pages/Dashboard';
 import Bookings from './pages/Bookings';
@@ -13,7 +15,7 @@ import Account from './pages/Account';
 import Login from './pages/Login';
 import PageNotFound from './pages/PageNotFound';
 import AppLayout from './ui/AppLayout';
-import { Toaster } from 'react-hot-toast';
+import Checkin from './pages/Checkin';
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -37,6 +39,8 @@ const App = () => {
 
             <Route path="bookings" element={<Bookings />} />
             <Route path="bookings/:bookingId" element={<Booking />} />
+
+            <Route path="checkin/:bookingId" element={<Checkin />} />
 
             <Route path="cabins" element={<Cabins />} />
             <Route path="users" element={<Users />} />
@@ -73,4 +77,4 @@ const App = () => {
 
 export default App;
 
-// goto: 12 Checking in a Booking
+// goto: 13 Adding Optional Breakfast
