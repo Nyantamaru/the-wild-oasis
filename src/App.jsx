@@ -77,4 +77,4 @@ const App = () => {
 
 export default App;
 
-// goto: 13 Adding Optional Breakfast
+// goto: 14 Checking out a Booking (+ fix a small bug)
