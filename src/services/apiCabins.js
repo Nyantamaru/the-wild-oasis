@@ -64,7 +64,7 @@ export const createEditCabin = async (newCabin, id) => {
   return data;
 };
 
-export const deleteCabin = async (id) => {
+export const deleteBooking = async (id) => {
   const { data, error } = await supabase.from('cabins').delete().eq('id', id);
 
   if (error) {

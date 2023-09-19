@@ -77,4 +77,4 @@ const App = () => {
 
 export default App;
 
-// goto: 15 Deleting a Booking
+// goto: 16 Authentication User Login with Supabase
