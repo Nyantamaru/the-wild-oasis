@@ -77,4 +77,4 @@ const App = () => {
 
 export default App;
 
-// goto: 16 Authentication User Login with Supabase
+// goto: 17 Authorization Protecting
