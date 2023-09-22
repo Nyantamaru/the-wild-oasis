@@ -81,7 +81,6 @@ const App = () => {
     </QueryClientProvider>
   );
 };
-
 export default App;
 
-// goto: 19 Fixing an important bug
+// goto: 21 User  Sign Up on Supabase
