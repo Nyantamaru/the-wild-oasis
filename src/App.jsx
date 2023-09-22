@@ -83,4 +83,4 @@ const App = () => {
 };
 export default App;
 
-// goto: 21 User  Sign Up on Supabase
+// goto: 22 Authorization on Supabase protecting database
