@@ -83,4 +83,4 @@ const App = () => {
 };
 export default App;
 
-// goto: 24 Updating User Data and Password
+// goto: 25 Implementing Dark Mode with CSS variables
