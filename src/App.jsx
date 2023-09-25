@@ -86,4 +86,4 @@ const App = () => {
 };
 export default App;
 
-// goto: 29 Displaying a Line chart With ReCharts library
+// goto: 30 Displaying a Pie chart
