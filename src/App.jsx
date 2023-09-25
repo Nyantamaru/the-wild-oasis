@@ -86,4 +86,4 @@ const App = () => {
 };
 export default App;
 
-// goto: 27 Computing Recent Bookings and Stays
+// goto: 28 Displaying Statistics
