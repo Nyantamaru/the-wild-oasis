@@ -86,4 +86,4 @@ const App = () => {
 };
 export default App;
 
-// goto: 26 Building the Dashboard Layout
+// goto: 27 Computing Recent Bookings and Stays
