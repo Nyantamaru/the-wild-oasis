@@ -86,4 +86,4 @@ const App = () => {
 };
 export default App;
 
-// goto: 28 Displaying Statistics
+// goto: 29 Displaying a Line chart With ReCharts library
