@@ -86,4 +86,4 @@ const App = () => {
 };
 export default App;
 
-// goto: 32 Error Boundaries
+// goto: 33 Final Touches + Fixing Bugs
