@@ -86,4 +86,4 @@ const App = () => {
 };
 export default App;
 
-// goto: 30 Displaying a Pie chart
+// goto: 31 Displaying Stays for Current Day
