@@ -86,4 +86,4 @@ const App = () => {
 };
 export default App;
 
-// goto: 31 Displaying Stays for Current Day
+// goto: 32 Error Boundaries
