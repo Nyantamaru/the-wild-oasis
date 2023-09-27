@@ -86,4 +86,4 @@ const App = () => {
 };
 export default App;
 
-// goto: 33 Final Touches + Fixing Bugs
+// goto: Add Internationalization

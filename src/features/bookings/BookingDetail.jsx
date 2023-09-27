@@ -17,6 +17,7 @@ import { useNavigate } from 'react-router-dom';
 import { HiArrowDownOnSquare, HiArrowUpOnSquare } from 'react-icons/hi2';
 import ConfirmDelete from '../../ui/ConfirmDelete';
 import { useDeleteBooking } from './useDeleteBooking';
+import Empty from '../../ui/Empty';
 
 const HeadingGroup = styled.div`
   display: flex;
@@ -32,9 +33,9 @@ function BookingDetail() {
   const moveBack = useMoveBack();
   const navigate = useNavigate();
 
-  if (isLoading) {
-    return <Spinner />;
-  }
+  if (isLoading) return <Spinner />;
+  if (!booking) return <Empty resourceName={'booking'} />;
+
   const { status, id: bookingId } = booking;
 
   const statusToTagName = {
